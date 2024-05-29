@@ -138,7 +138,7 @@ const TaskItem = ({ tasks }) => {
         >
           Previous
         </Button>
-        <span className="text-sm">Page {currentPage} of {totalPages}</span>
+        <span className="text-sm dark:text-white">Page {currentPage} of {totalPages}</span>
         <Button
           onClick={handleNextPage}
           disabled={currentPage === totalPages}
