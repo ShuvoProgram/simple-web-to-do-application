@@ -4,16 +4,16 @@
 
 ## Project Description
 
-This is a simple and intuitive To-Do App designed to help you manage your tasks effectively.
+The To-Do App is a powerful 📝✨, user-friendly tool designed to help you manage your tasks efficiently. Whether you're organizing your daily activities, planning work tasks, or setting personal goals, our app offers the perfect blend of simplicity and functionality. Boost your productivity and stay on top of your schedule with ease!📅🔔
 
 ## Features of To-Do App
 
-- **Task Management**: Add, edit, and delete tasks effortlessly.
-- **Reminders**: Set reminders to never miss a task.
-- **Due Dates**: Assign due dates to tasks to stay on track.
-- **Priority Levels**: Mark tasks with priority levels for better organization.
-- **Progress Tracking**: Track your progress with visual indicators.
-- **Dark Mode**: Switch between light and dark themes for better visibility.
+- 📝**Add Task**: Easily add new tasks to your to-do list.
+- ❌**Delete Task**: Remove tasks you no longer need with just a click.
+- ✏️**Edit Task**: Modify task details as needed to keep your list up to date.
+- 💾**Local Storage**: Your task data is saved locally, ensuring data persistence.
+- 🔄**Pagination**: Navigate through your tasks conveniently with pagination controls.
+- 🌓**Dark Mode**: Switch between light and dark themes for better visibility.
 
 ## How to Use
 
@@ -40,8 +40,7 @@ This is a simple and intuitive To-Do App designed to help you manage your tasks 
 
 We welcome contributions! To contribute to this project:
 
-**Fork the Repository**:
-    - Click the "Fork" button at the top right corner of this repository.
+Author: [Safar Khan Shuvo](https://github.com/ShuvoProgram)
 ---
 
 Feel free to open an issue if you have any questions or run into any problems. Happy coding! 🚀
