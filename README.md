@@ -1,6 +1,6 @@
 # To-Do App
 
-![Project Image](https://via.placeholder.com/800x400.png?text=To-Do+App)
+![Project Image](/github/preview.png)
 
 ## Project Description
 
@@ -19,7 +19,7 @@ The To-Do App is a powerful 📝✨, user-friendly tool designed to help you man
 
 1. **Clone the Repository**:
     ```
-    git clone https://github.com/yourusername/todo-app.git
+    git clone https://github.com/ShuvoProgram/simple-web-to-do-application.git
     ```
 2. **Navigate to the Project Directory**:
     ```
