@@ -98,18 +98,18 @@ const TaskItem = ({ tasks }) => {
     <div className="border p-4 rounded-md shadow-sm">
       <TableContainer>
         <Table variant='simple'>
-          <Thead>
-            <Tr>
-              <Th>Title</Th>
-              <Th>Description</Th>
-              <Th isNumeric>Action</Th>
+          <Thead >
+            <Tr >
+              <Th className='dark:text-white'>Title</Th>
+              <Th className='dark:text-white'>Description</Th>
+              <Th className='dark:text-white' isNumeric>Action</Th>
             </Tr>
           </Thead>
           <Tbody>
             {currentTasks.map((task) => (
               <Tr key={task.id}>
-                <Td>{task.title}</Td>
-                <Td>{task.description}</Td>
+                <Td className='dark:text-white'>{task.title}</Td>
+                <Td className='dark:text-white'>{task.description}</Td>
                 <Td isNumeric>
                   <Tooltip label='Edit Task' placement='top'>
                     <EditIcon
@@ -152,13 +152,14 @@ const TaskItem = ({ tasks }) => {
             bg='blackAlpha.300'
             backdropFilter='blur(10px) hue-rotate(90deg)'
           />
-          <ModalContent>
-            <ModalHeader className='text-center'>Edit Task</ModalHeader>
+          <ModalContent className='dark:bg-gray-900'>
+            <ModalHeader className='text-center dark:text-white'>Edit Task</ModalHeader>
             <ModalBody>
               <form onSubmit={handleEdit} className="space-y-4">
                 <div>
                   <Input
                     value={title}
+                    className='dark:text-white'
                     onChange={(e) => setTitle(e.target.value)}
                     placeholder='Title'
                     size='md'
@@ -168,6 +169,7 @@ const TaskItem = ({ tasks }) => {
                 <div>
                   <Textarea
                     value={description}
+                    className='dark:text-white'
                     onChange={(e) => setDescription(e.target.value)}
                     placeholder='Description'
                     required

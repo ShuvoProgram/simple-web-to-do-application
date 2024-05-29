@@ -1,5 +1,6 @@
 import AddTask from "@/components/AddTask";
 import TaskList from "@/components/TaskList";
+import ThemeToggle from "@/components/ThemeToggle";
 import { Stack } from "@chakra-ui/react";
 
 export const metadata = {
@@ -10,7 +11,11 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl text-center font-bold mb-4">To-Do App</h1>
+      <div>
+        
+      </div>
+      <h1 className="text-2xl text-center dark:text-white font-bold mb-4">To-Do App</h1>
+      <ThemeToggle />
         <Stack spacing={4}>
         <AddTask />
         <TaskList />

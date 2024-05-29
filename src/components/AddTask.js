@@ -35,12 +35,14 @@ const AddTask = () => {
         onChange={(e) => setTitle(e.target.value)}
         placeholder='Title'
         size='md'
+        className='dark:text-white'
         required
       />
       <Textarea
         value={description}
         onChange={(e) => setDescription(e.target.value)}
         placeholder='Description'
+        className='dark:text-white'
         required
       />
       <Button type="submit" leftIcon={<AddIcon />} colorScheme='teal' variant='solid' >

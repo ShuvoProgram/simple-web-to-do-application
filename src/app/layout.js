@@ -8,7 +8,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className='dark:bg-gray-900 bg-white'>
       <ChakraProvider>
       <Provider store={store}>
       {children}
